@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-buttons>
+      <ion-menu-button menu="main-menu">
+
+      </ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <!-- <ion-toolbar>
+      <ion-title size="large"></ion-title>
+    </ion-toolbar> -->
+  </ion-header>
+
+  <!-- <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div> -->
+  <div class="ion-padding">
+    <ion-button  expand="full" (click)="DrawPiechart()" class="smallbtn">Add Bin</ion-button>
+    <h3>Bin Status according to their status</h3>
+  </div>
+  <div id="div-pie">
+
+  </div>
+</ion-content>
